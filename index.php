@@ -2,6 +2,10 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
+# ATENÇÃO:
+# VERIFIQUE OS DADOS DE SEU HOST
+# E MODIFIQUE O ARQUIVO config.php PRESENTE NO DIRETÓRIO Source/Config/config.php
+
 /**
  * o método bootstrap monta a mensagem de Email
  * subject = assunto
