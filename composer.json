@@ -1,0 +1,22 @@
+{
+    "name": "edem/email",
+    "authors": [
+        {
+            "name": "edem fernando",
+            "email": "edem.fbc@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "Source/"
+        },
+        "files": [
+            "Source/Config/config.php",
+            "Source/Config/support.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
